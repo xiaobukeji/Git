@@ -4,10 +4,13 @@
 
 `sudo apt-get install git` 在Linux上安装Git
 
-`$ git config --global user.name "Ervin Hua"`
-`$ git config --global user.email "yhua.lin@qq.com"`
+`git config -l` 或者 `git config --list` 列出所有配置
 
-配置名字和Email地址
+`git config --global <option>` 配置全局选项
+
+ - `git config --global user.name "Ervin Hua"`
+ - `git config --global user.email "yhua.lin@qq.com"`
+
 
 #### 创建版本库
 
