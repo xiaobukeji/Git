@@ -1,4 +1,4 @@
-## Git Skills Study
+## Git 技能学习
 
 #### Git 安装
 
@@ -23,3 +23,23 @@
 `git commit` 提交暂存文件到本地仓库
 
  - `git commit -m "add README.md file"`
+
+#### 版本穿梭
+
+`git status` 查看工作区状态
+
+`git diff` 查看修改内容
+
+ - `git diff README.md`
+ 
+`git log` 显示提交日志
+
+`git log --pretty=oneline` 一行显示提交日志
+
+`HEAD` 表示当前版本， `HEAD^` 上一个版本， `HEAD^^` 上上一个版本， `HEAD~100` 往上100个版本
+
+`git reset --hard HEAD^` 回退到上一个版本
+
+`git reset --hard 5ec5b8e` 指定回到某个版本
+
+`git reflog` 查看命令历史
