@@ -1,25 +1,25 @@
-## Git Skills Study
+## Git Skills Learn
 
-#### Git 安装
+#### Git Install
 
-`sudo apt-get install git` 在Linux上安装Git
+**`sudo apt-get install git`**  Git install on Linux
 
-`git config -l` 或者 `git config --list` 列出所有配置
+`git config -l` or `git config --list`  List all config
 
-`git config --global <option>` 配置全局选项
+`git config --global <option>` Configure global options
 
  - `git config --global user.name "Ervin Hua"`
  - `git config --global user.email "yhua.lin@qq.com"`
 
 
-#### 创建版本库
+#### Create Repository
 
-`git init` 初始化一个Git仓库
+`git init`  Initialize a Git repository
 
-`git add <file>` 暂存文件
+`git add <file>`  Stage file
 
- - `git add README.md` 或者 `git add .` 
+ - `git add README.md` or `git add .` 
 
-`git commit` 提交暂存文件到本地仓库
+`git commit`  Commit stage fiels to the local repository
 
  - `git commit -m "add README.md file"`
