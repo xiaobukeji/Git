@@ -43,3 +43,17 @@
 `git reset --hard 5ec5b8e` 指定回到某个版本
 
 `git reflog` 查看命令历史
+
+#### 版本修改
+
+`git diff HEAD -- README.md` 查看工作区和版本库最新版本的区别
+
+`git checkout -- <file>` 丢弃工作区的修改
+
+ - `git checkout -- README.md`
+
+`git reset HEAD <file>` 撤销暂存区修改
+
+ - `git reset HEAD README.md`
+
+`git rm <file>` 从版本库删除文件
